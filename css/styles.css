@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+  font-family: 'Benne', serif;
+}
+div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+h1{
+  width: auto;
+  margin : 50px auto 0 auto;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 3rem; /* 100 % = 16px = 1em =1rem */
+}
+h2{
+
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+p{
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  margin: 50px auto;
+  width: 5%;
+}
+
+
+/************************ ID ****************/
+
+#profile_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+/************************ CLASS ****************/
+.top-container{
+    color: #11999E;
+    background-color: rgb(200, 231, 253);
+    padding-top: 100px;
+}
+.middle-container{
+  margin-top: 40px;
+}
+.bottom-container{
+
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-image1{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-image2{
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: relative;
+    left : 250px;
+}
+
+.contact-description{
+  font-family: 'Amita', cursive;
+  font-size: 20px;
+}
+
+.contact-me{
+  text-align: center;
+
+}
+
+.btn{
+    font-size: .8em;
+    text-align: center;
+    display: block;
+    position: relative;
+    background: #45b29a;
+    padding: .75em 2em .75em 3.5em;
+    color: #1b7f69;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 400;
+    border: 0;
+    font-family: 'Viaoda Libre', cursive;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 50px auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.footer-link{
+  margin: 50px 10px 50px 10px;
+  color: #11999E;
+}
+.copyright{
+  font-size: 10px;
+  color: #EAF6F6;
+}
